@@ -132,7 +132,7 @@ export const experiences = [
     role: "Fullstack Externship",
     company: "Example Company",
     date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "Working on frontend and backend web application using ReactJS, Redux, Material UI.",
     skills: [
       "ReactJS",
       "Redux",
