@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated, versatile individual with a passion for learning and delivering high-quality results. With a positive attitude and growth mindset, I'm eager to take on challenges and make a meaningful impact.",
   github: "https://github.com/Aryan011001",
   resume:
-    "https://drive.google.com/file/d/1jBSr9u1kcr19VMjIzouKNAgF-kncDiC5/view?usp=sharing",
+    "https://drive.google.com/file/d/1b5k9yvwxaBh1HCM5RCyYEaqYL0xmGTYf/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aryan-ranjan01/",
 };
 
