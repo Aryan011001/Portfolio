@@ -2,6 +2,8 @@ export const Bio = {
   name: "Aryan Ranjan",
   roles: [
     "Full Stack Developer",
+
+    "Flutter Developer",
     "Programmer",
   ],
   description:
@@ -21,6 +23,11 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
+      {
+        name:"Flutter",
+        image: "https://img.icons8.com/?size=100&id=7I3BjCqe9rjG&format=png&color=000000"
+      },
+      
       {
         name: "Redux",
         image:
@@ -44,6 +51,10 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Dart",
+        image: "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000",
       },
       {
         name: "Bootstrap",
@@ -75,6 +86,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
+        name: "Dart",
+        image: "https://img.icons8.com/?size=100&id=7AFcZ2zirX6Y&format=png&color=000000"
+      },
+      {
+
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
@@ -125,6 +141,8 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
+
+    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
     id: 1,
@@ -133,6 +151,7 @@ export const experiences = [
     company: "Example Company",
     date: "June 2023 - July 2023",
     desc: "Working on frontend and backend web application using ReactJS, Redux, Material UI.",
+    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
     skills: [
       "ReactJS",
       "Redux",
@@ -170,6 +189,24 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 9,
+    title: "DrawItOut",
+    date: "Dec 2024 - Jan 2025",
+    description:
+    "I developed DrawItOut, a real-time multiplayer drawing and guessing game built with Flutter, Node.js, Express, and MongoDB. Players can draw prompts while others guess in real time, enhancing engagement and creativity. The game features custom rooms, avatars, and dynamic scoring for competitive play. WebSockets ensure low-latency, seamless communication, delivering a smooth and interactive experience across devices.",
+    image:
+      "/drawitout.jpg",
+    tags: [
+        "Flutter",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "WebSockets"
+    ],
+    category: "real-time multiplayer game",
+    github: "https://github.com/Aryan011001/SkribblClone",
+  },
   {
     id: 9,
     title: "Connect Sphere",
